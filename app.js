@@ -22,13 +22,36 @@
 //     undefined: "e"
 
 // }
-const student = {
-    name: "Emtiazz",
-    age: 22,
-    cgpa: 3.75,
-    city: "Dhaka",
-};
+// const student = {
+//     name: "Emtiazz",
+//     age: 22,
+//     cgpa: 3.75,
+//     city: "Dhaka",
+// };
 
 //changing city
-student.city = "Chittagong";
-student.gender = "Male";
+// student.city = "Chittagong";
+// student.gender = "Male";
+
+// delete student.city;
+// console.log(student);   
+
+//nested object
+const classinfo = {
+    emtiaz: {
+        age: 22,
+        cgpa: 3.75,
+        city: "Dhaka",
+    },
+    sabbir: {
+
+        age: 22,
+        cgpa: 3.75,
+        city: "Dhaka",
+    },
+    ahmed: {
+        age: 22,
+        cgpa: 3.75,
+        city: "Dhaka",
+    },
+}
