@@ -57,10 +57,40 @@
 // }
 
 //learning Math mathod
-Math.abs(-10)
-Math.pow(2, 3)
-Math.sqrt(16)
-Math.ceil(10.1)
-Math.floor(10.9)
-Math.random()
-Math.floor(Math.random() * 10);
+// Math.abs(-10)
+// Math.pow(2, 3)
+// Math.sqrt(16)
+// Math.ceil(10.1)
+// Math.floor(10.9)
+// Math.random()
+// Math.floor(Math.random() * 10);
+
+//Creating guess game from what i learned 
+
+const max = prompt("enter the maximum number");
+
+const randomNum = Math.floor(Math.random() * max) + 1;
+
+let guess = prompt("guess the number");
+
+while (true) {
+    if (guess == "quite") {
+        console.log("You quit!");
+        break;
+    }
+
+    if (guess == randomNum) {
+        console.log("You guessed it!");
+        break;
+    }
+    else if (guess < randomNum) {
+        guess = prompt("Too low! Try again!");
+
+    }
+    else if (guess > randomNum) {
+        guess = prompt("Too high! Try again!");
+
+    }
+
+
+}
