@@ -37,21 +37,30 @@
 // console.log(student);   
 
 //nested object
-const classinfo = {
-    emtiaz: {
-        age: 22,
-        cgpa: 3.75,
-        city: "Dhaka",
-    },
-    sabbir: {
+// const classinfo = {
+//     emtiaz: {
+//         age: 22,
+//         cgpa: 3.75,
+//         city: "Dhaka",
+//     },
+//     sabbir: {
 
-        age: 22,
-        cgpa: 3.75,
-        city: "Dhaka",
-    },
-    ahmed: {
-        age: 22,
-        cgpa: 3.75,
-        city: "Dhaka",
-    },
-}
+//         age: 22,
+//         cgpa: 3.75,
+//         city: "Dhaka",
+//     },
+//     ahmed: {
+//         age: 22,
+//         cgpa: 3.75,
+//         city: "Dhaka",
+//     },
+// }
+
+//learning Math mathod
+Math.abs(-10)
+Math.pow(2, 3)
+Math.sqrt(16)
+Math.ceil(10.1)
+Math.floor(10.9)
+Math.random()
+Math.floor(Math.random() * 10);
