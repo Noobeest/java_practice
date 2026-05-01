@@ -127,25 +127,75 @@
 // isAdult();
 // print1to5();
 
-function poem() {
-    console.log("Twinkle twinkle little star,");
-    console.log("How I wonder what you are,");
-    console.log("Up above the world so high,");
-    console.log("Like a diamond in the sky.");
+// function poem() {
+//     console.log("Twinkle twinkle little star,");
+//     console.log("How I wonder what you are,");
+//     console.log("Up above the world so high,");
+//     console.log("Like a diamond in the sky.");
+// }
+
+
+// poem();
+
+
+// function rollDice() {
+//     let randomNum = Math.floor(Math.random() * 6) + 1;
+//     console.log(`You rolled a ${randomNum}`);
+// }
+
+// rollDice();
+// rollDice();
+// rollDice();
+// rollDice();
+// rollDice();
+// rollDice();
+
+// function printName(name) {
+//     console.log(name);
+// }
+
+// let name = prompt("Enter your name");
+// printName(name);
+
+// function sum(a, b) {
+//     console.log(a + b);
+// }
+// sum(1, 2);
+
+//practice function (print avg of 3 numbers)
+
+// function avg(x, y, z) {
+//     avg = (x + y + z) / 3;
+//     console.log(`The average of ${x}, ${y}, and ${z} is ${avg}`);
+// }
+
+// avg(23, 12, 45);
+
+// function printTable(n) {
+//     for (let i = 1; i <= 10; i++)
+//         console.log(n + " * " + i + " = " + n * i)
+// }
+// printTable(5)
+
+// function numberOfn(n) {
+//     sum = 0;
+//     for (let i = 1; i <= n; i++) {
+//         sum += i;
+//     }
+
+//     return sum;
+// }
+// console.log(numberOfn(1000
+// ));
+
+let str = ["hi ", "Hellow ", "Bye"];
+
+function concate(str) {
+    let result = "";
+    for (let i = 0; i < str.length; i++) {
+        result += str[i];
+
+    }
+    return result;
 }
-
-
-poem();
-
-
-function rollDice() {
-    let randomNum = Math.floor(Math.random() * 6) + 1;
-    console.log(`You rolled a ${randomNum}`);
-}
-
-rollDice();
-rollDice();
-rollDice();
-rollDice();
-rollDice();
-rollDice();
+console.log(concate(str));
