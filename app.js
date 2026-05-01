@@ -67,30 +67,85 @@
 
 //Creating guess game from what i learned 
 
-const max = prompt("enter the maximum number");
+// const max = prompt("enter the maximum number");
 
-const randomNum = Math.floor(Math.random() * max) + 1;
+// const randomNum = Math.floor(Math.random() * max) + 1;
 
-let guess = prompt("guess the number");
+// let guess = prompt("guess the number");
 
-while (true) {
-    if (guess == "quite") {
-        console.log("You quit!");
-        break;
-    }
+// while (true) {
+//     if (guess == "quite") {
+//         console.log("You quit!");
+//         break;
+//     }
 
-    if (guess == randomNum) {
-        console.log("You guessed it!");
-        break;
-    }
-    else if (guess < randomNum) {
-        guess = prompt("Too low! Try again!");
+//     if (guess == randomNum) {
+//         console.log("You guessed it!");
+//         break;
+//     }
+//     else if (guess < randomNum) {
+//         guess = prompt("Too low! Try again!");
 
-    }
-    else if (guess > randomNum) {
-        guess = prompt("Too high! Try again!");
+//     }
+//     else if (guess > randomNum) {
+//         guess = prompt("Too high! Try again!");
 
-    }
+//     }
 
 
+// }
+
+
+//Java part-6 (function)
+// function hello() {
+//     console.log("HELLO!")
+// }
+
+// hello();
+
+// function printName() {
+//     console.log("Emtiaz Siddique")
+// }
+
+// // printName();
+
+// function print1to5() {
+//     for (let i = 1; i <= 5; i++) {
+//         console.log(i);
+//     }
+// }
+
+// function isAdult() {
+//     let age = 13;
+//     if (age >= 18) {
+//         console.log("Adult");
+//     }
+//     else {
+//         console.log("Not Adult");
+//     }
+// }
+// isAdult();
+// print1to5();
+
+function poem() {
+    console.log("Twinkle twinkle little star,");
+    console.log("How I wonder what you are,");
+    console.log("Up above the world so high,");
+    console.log("Like a diamond in the sky.");
 }
+
+
+poem();
+
+
+function rollDice() {
+    let randomNum = Math.floor(Math.random() * 6) + 1;
+    console.log(`You rolled a ${randomNum}`);
+}
+
+rollDice();
+rollDice();
+rollDice();
+rollDice();
+rollDice();
+rollDice();
